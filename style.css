@@ -1,0 +1,68 @@
+
+/* * é pra selecionar todos os elementos*/
+/* colocar a pagina no 100%, com o height: x */
+/*Flexbox, coloca os elementos em um conteiner */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Mono:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #f6f6f6;
+}
+
+.destaque{
+    color: #cb6ce6;
+}
+
+.conteudo{
+    margin: 10% 20%;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo-texto{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.conteudo-texto-titulo{
+    font-size: 34px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.conteudo-texto-descricao{
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.apresentacao-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao-links-endereço{
+    background-color: #e66ce0;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 30px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: black;
+    font-family:'Roboto Mono', monospace ;
+    font-weight: 600;
+}
+
+.imagem{
+    width: 400px;
+}
