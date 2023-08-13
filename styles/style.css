@@ -11,7 +11,6 @@
 }
 
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: black;
     color: #f6f6f6;
@@ -21,8 +20,32 @@ body{
     color: #cb6ce6;
 }
 
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+
+}
+
+.cabecalho-menu{
+    display: flex;
+   gap: 80px;
+
+}
+.cabecalho-menu-links{
+
+    font-family:'Roboto Mono', monospace;
+    font-size: 24px;
+    font-weight: 600;
+    color: #cb6ce6;
+    text-decoration: none;
+
+}    
+.cabecalho-menu-links:hover{
+    color: plum;
+}
+
+
 .conteudo{
-    margin: 10% 20%;
+    padding: 5% 15%;
     display: flex ;
     align-items: center;
     justify-content: space-between;
@@ -64,23 +87,23 @@ body{
     gap: 16px;
     text-align: center;
     border-radius: 16px;
-    font-size: 30px;
+    font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #cb6ce6;
+    color: white;
     font-family:'Roboto Mono', monospace ;
     font-weight: 600;
     border: 2px solid #cb6ce6;
 }
 
 .apresentacao-links-endereço:hover{    
-background-color: #272727;
-/* Hover, quando passa o mouse em cima, muda a cor */
+    background-color: #272727;
+    /* Hover, quando passa o mouse em cima, muda a cor */
 }
 
 
 .apresentacao-links-endereço-img{
-    width: 55px;
+    width: 40px;
 }
 
 .imagem{
@@ -88,7 +111,19 @@ background-color: #272727;
 }
 
 .rodape{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family:'Roboto Mono', monospace ;
+    font-size: 20px;
+    padding: 25px;
+    font-weight: 400px;
     
+
+}
+.rodape:hover{
+    background-color: black;
+    color: #cb6ce6;
 }
 
 /* crtl + K + C comentarios */
