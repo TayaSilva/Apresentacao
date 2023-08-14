@@ -126,4 +126,13 @@ body{
     color: #cb6ce6;
 }
 
+.conteudo-texto-titulo2{
+    font-size: 34px;
+    font-family: 'Roboto Mono', monospace;
+    color: #cb6ce6;
+}
+
+.foto-animada{
+    width: 450px;
+}
 /* crtl + K + C comentarios */
